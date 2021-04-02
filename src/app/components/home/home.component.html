@@ -1,0 +1,22 @@
+<clr-main-container>
+  <clr-header>
+    <div class="header-nav" [clr-nav-level]="1">
+      <div class="branding">
+        <span class="title">Admin Kenzii</span>
+      </div>
+    </div>
+  </clr-header>
+  <div class="content-container">
+    <main class="content-area">
+      <p><app-show-products [products]="products"></app-show-products></p>
+    </main>
+    <nav class="sidenav" [clr-nav-level]="2">
+      <section class="sidenav-content">
+        <a href="javascript://" class="nav-link active">Products</a>
+        <a href="javascript://" class="nav-link">Order</a>
+        <a href="javascript://" class="nav-link">Customers</a>
+        <a href="javascript://" class="nav-link">Product category</a>
+      </section>
+    </nav>
+  </div>
+</clr-main-container>
